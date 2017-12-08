@@ -34,15 +34,27 @@
 .carousel-description{
     color: #fff;
 }
-
+.carousel-headline{
+    font-size: 2.2;
+}
+.carousel-subheadline{
+    font-size: 1rem;
+    font-style: normal;
+}
+.carousel-description{
+    font-size: 0.75rem;
+    font-weight: 300;
+}
 .carousel-item{
     text-align: center;
 }
-
+.carousel-inner{
+    display: flex;
+    align-items: center;
+}
 .carousel {
     display: flex;
-    height: 70vh;
-    margin-top: 8rem;
+    height: 90vh;
 }
 .carousel-indicators{
     align-self: flex-end;
