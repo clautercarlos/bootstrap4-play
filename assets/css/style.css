@@ -4,6 +4,8 @@
     background-size: cover;
 
 }
+
+/*NAVBAR */
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:hover,
@@ -24,3 +26,27 @@
 .navbar-light .navbar-brand{
     font-size: 1.2rem;
 }
+
+
+/* CAROUSEL*/
+.carousel-headline,
+.carousel-subheadline,
+.carousel-description{
+    color: #fff;
+}
+
+.carousel-item{
+    text-align: center;
+}
+
+.carousel {
+    display: flex;
+    height: 70vh;
+    margin-top: 8rem;
+}
+.carousel-indicators{
+    align-self: flex-end;
+}
+
+
+
