@@ -1,0 +1,6 @@
+.safe-area{
+    height: 100vh;
+    background: url('../img/screen-bg.png') no-repeat center top;
+    background-size: cover;
+
+}
