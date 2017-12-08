@@ -48,5 +48,10 @@
     align-self: flex-end;
 }
 
-
+/* BUTTONS */
+.btn{
+    padding: .3rem 2.5rem;
+    border-radius: 1.3rem;
+    margin-right: 1rem;
+}
 
