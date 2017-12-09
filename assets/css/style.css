@@ -5,6 +5,18 @@
 
 }
 
+.space{
+    padding: 2.3rem 0 2.3rem 0;
+}
+
+.headline{
+    font-size: 1.8rem;
+}
+
+.description{
+    font-size: 1.25rem;
+}
+
 /*NAVBAR */
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-brand,
