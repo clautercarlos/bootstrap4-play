@@ -79,3 +79,25 @@
     margin-right: 1rem;
 }
 
+/* FEATURES */
+.check-headline{
+    font-size: 1rem;
+}
+.check-description{
+    font-size: 0.8rem;
+}
+.featured-space-headline{
+    padding: 2rem 0 2rem 0;
+}
+.features .custom-control{
+    margin-bottom: 1.5rem;
+}
+.custom-control-input:checked~.custom-control-indicator {
+    background-color: #00bfa5;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-indicator{
+    background-image: none;
+}
+.custom-checkbox .custom-control-indicator{
+    border-radius: 0;
+}
