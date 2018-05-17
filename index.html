@@ -222,9 +222,12 @@
     
     <script>
         
-        function showIframe(){
+        function showIframe(elemento, idVideo){
             elemento.append('<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/'+idVideo+'?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>');
         }
+
+        var playVideo = $('.-play-video')
+        
     </script>
     
 </body>
