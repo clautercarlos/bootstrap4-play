@@ -230,7 +230,8 @@
 
         var playVideo = $('.play-video');
 
-        playVideo.on('click', function(){
+        playVideo.on('click', function(evento){
+            evento.preventDefault();
             var id = $(this).attr("data-id");
 
             showIframe($(this), id);
