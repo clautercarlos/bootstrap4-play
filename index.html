@@ -206,7 +206,7 @@
 
     <div class="video space">
 
-        <a href="#">
+        <a href="#" class="play-video" data-id="yJl5D0U5gY0">
             <img src="assets/img/thumb-video.png" alt="" class="img-fluid mx-auto">
         </a>
         
@@ -224,7 +224,7 @@
         
         function showIframe(elemento, idVideo){
             elemento.find('img').remove();
-            
+
             elemento.append('<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/'+idVideo+'?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>');
         }
 
