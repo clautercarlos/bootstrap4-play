@@ -119,3 +119,7 @@
     height: 250px;
     background-color: #fff;
 }
+
+.rates .headline {
+    padding-bottom: 1.5rem;
+}
