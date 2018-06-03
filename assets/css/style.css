@@ -142,6 +142,9 @@
 
 
 /*CUSTOMER*/
+.customer .headline {
+    margin-bottom: 3rem;
+}
 .custom-headline{
     font-size: 1rem;
     font-weight: 300;
