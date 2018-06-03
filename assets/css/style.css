@@ -141,3 +141,15 @@
 }
 
 
+/*CUSTOMER*/
+.custom-headline{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.customer-name {
+    font-size: .9rem;
+    font-weight: 700;
+}
+.customer-testimonial {
+    font-size: .8rem;
+}
