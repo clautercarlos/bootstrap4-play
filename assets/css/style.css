@@ -156,3 +156,19 @@
 .customer-testimonial {
     font-size: .8rem;
 }
+
+/* BENEFITS */
+.benefit {
+    background-color: #00bfa5;
+}
+.benefit .headline,
+.benefit .description{
+    color: #fff; 
+}
+.benefit .description{
+    font-weight: 300; 
+}
+.benefit a {
+    margin-top: 2rem;
+    margin-right: 1.5rem;
+}
