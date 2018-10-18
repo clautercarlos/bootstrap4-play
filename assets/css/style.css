@@ -142,6 +142,10 @@
     padding: 1rem 0 0 0;
 }
 
+.hack-align-hate {
+  margin-left: 12.5%;
+}
+
 
 /*CUSTOMER*/
 .customer .headline {
@@ -210,6 +214,19 @@
 }
 
 /* RESPONSIVE */
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  .hack-align-hate {
+    margin-left: 0;
+  }
+  .rates .space-hate-col  {
+    margin-bottom: 1rem;
+  }
+}
+
+
 @media (max-width: 768px) {
   .navbar-toggle-item {
     background-color: #fff;
