@@ -209,4 +209,21 @@
   color: #9da6ac;
 }
 
-/* SOCIAL */
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .navbar-toggle-item {
+    background-color: #fff;
+    width: 30px;
+    display: block;
+    height: 3px;
+    margin-bottom: .3rem;
+  }
+}
+
+@media (max-width: 1024px){
+  .btn {
+    margin-top: 1rem;
+    display: block;
+    width: 100%;
+  }
+}
